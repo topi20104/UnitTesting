@@ -1,8 +1,8 @@
-
+from unittest.main import main
 
 '''Made by Topi Aila'''
 
-def triangleCheck(a,b,c):
+def TriangleCheck(a,b,c):
     triangletype = ""
     if (a == b and b == c and c == a):    
         triangletype = "equilateral"
@@ -15,4 +15,6 @@ def triangleCheck(a,b,c):
     elif(a != b and b != c):
         triangletype = "irregular"
         return triangletype
-
+        
+        
+print(TriangleCheck(1,2,3))
