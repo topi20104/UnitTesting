@@ -2,6 +2,8 @@ import unittest
 import unittest.mock as mock
 import RPS
 
+'''Made by Topi Aila'''
+
 class TestRPS(unittest.TestCase):
 
     def testUserWin(self):

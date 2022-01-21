@@ -1,7 +1,8 @@
-from asyncio.windows_events import NULL
 from unittest import mock
 from unittest.main import main
 import random
+
+'''Made by Topi Aila'''
 
 
 def RockPaperScissors(mockInput):
